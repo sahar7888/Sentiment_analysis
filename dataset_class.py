@@ -2,6 +2,7 @@ import torch
 from torch.utils.data import Dataset
 import torch.nn as nn
 
+"""preparing the dataset"""
 class SentimentData(Dataset):
     def __init__(self, X, y):
         super().__init__()
